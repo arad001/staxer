@@ -18,7 +18,8 @@ This program is free software: you can redistribute it and/or modify
 int main()
 {
 
-    int userinput, amount_of_stacks, remainder;
+    int userinput, amount_of_stacks;
+    short remainder;
 
     printf("How many items do you need: ");
     scanf("%d", &userinput);
